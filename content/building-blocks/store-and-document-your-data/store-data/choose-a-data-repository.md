@@ -11,7 +11,7 @@ aliases:
   - /choose/data-repository
 ---
 
-Learn about the key aspects to ensure that your data is findable, accessible, interoperable, and reusable (FAIR). This building block will guide you through some of the main elements that you need to consider to make your data FAIR including Data Archiving, Licensing, and how to choose an appropriate data repository for long-term access alongside a few popular options for this.
+Discover the essential factors to consider when selecting the right data repository for long-term storage. This building block provides you with insights on data archiving, licensing, and publishing, as well as options for popular repository alternatives to ensure long-term access and preservation of your research data.
 
 ## Data Archiving
 
