@@ -1,7 +1,7 @@
 ---
 title: "Use AWS S3 Buckets"
 description: "This block explains how to list contents, download content from and upload content to an AWS S3 bucket with boto3."
-keywords: "aws, s3, boto3, python, bucket, list contents, upload"
+keywords: "aws, s3, boto3, python, bucket, list contents, upload, dowload, automate"
 #date: 2021-02-17
 #weight: 4
 author: "Nazli Alagöz"
@@ -9,6 +9,8 @@ authorlink: "https://www.tilburguniversity.edu/staff/n-m-alagoz"
 aliases:
   - "/use/aws-s3"
 ---
+
+Discover how to leverage the power of Amazon Simple Storage Service (AWS S3) to store and retrieve files in a fast and secure manner. In this building block, we'll explore how to establish a connection to an AWS S3 bucket, list the objects within it, and upload or download files using Python and the boto3 package. These skills will empower you to seamlessly integrate AWS S3 into your research workflows, boosting your data management capabilities.
 
 ## AWS S3 Buckets <!-- Goal of the Building Block -->
 
