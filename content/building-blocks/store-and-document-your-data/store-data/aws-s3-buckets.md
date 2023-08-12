@@ -14,7 +14,7 @@ Discover how to leverage the power of Amazon Simple Storage Service (AWS S3) to 
 
 ## AWS S3 Buckets <!-- Goal of the Building Block -->
 
-[Amazon Simple Storage Service](https://aws.amazon.com/s3/) (AWS S3) is an industry-leader object storage service that allows you to store and retrieve any kind of files fast, securely and anywhere in the world - basically Dropbox on steroids. It can be used for a range of use cases, from websites to backup and archives. It can also be particularly useful for research projects - storing a huge amount of raw data, for instance.
+[Amazon Simple Storage Service](https://aws.amazon.com/s3/) (AWS S3) is an industry-leader object storage service that allows you to store and retrieve any kind of files fast, securely and anywhere in the world - basically Dropbox on steroids. It can be used for a range of use cases, from websites to backups and archives. It can also be particularly useful for research projects - storing a huge amount of raw data, for instance.
 
 If you are using AWS S3 to store data necessary for your research and want to incorporate downloading and uploading your data files to AWS S3 into a [`make`](/building-blocks/configure-your-computer/automation-and-workflows/make/) script, it is useful to use a code script to interact with your AWS S3 bucket instead of the command line. Keep reading to learn how to do it.
 
@@ -22,7 +22,7 @@ If you are using AWS S3 to store data necessary for your research and want to in
 **Some terminology**
 
 You will often read about **AWS S3 buckets**. What are they?
-Put simply, a bucket is a container for objects (files) stored in Amazon S3. Every object must be contained in a bucket. A single user can have as many buckets as they want. Inside a bucket, you can create as many folders you want.
+Put simply, a bucket is a container for objects (files) stored in Amazon S3. Every object must be contained in a bucket. A single user can have as many buckets as they want. Inside a bucket, you can create as many folders as you want.
 {{% /tip %}}
 
 {{% warning %}}
@@ -35,7 +35,7 @@ Learn more about AWS credentials [here](https://docs.aws.amazon.com/general/late
 
 ## Code
 
-We show you how to very simply upload and download files to a S3 bucket with boto3.
+We show you how to very simply upload and download files to an S3 bucket with boto3.
 
 First off, install boto3 - the AWS SDK for Python - via [pip](/building-blocks/configure-your-computer/statistics-and-computation/python-packages/):
 
