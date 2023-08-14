@@ -25,6 +25,7 @@ You can check the [memory usage](https://pandas.pydata.org/docs/reference/api/pa
 {{% codeblock %}}
 ```python
 DataFrame.memory_usage(deep=True)
+```
 {{% /codeblock %}}
 
 Moreover, `pandas` only uses a single CPU core to perform computations, so it is relatively slow, especially when working with larger datasets.
@@ -38,11 +39,13 @@ One of the solutions to memory errors is to use another library. Here `Dask` com
 
 ### Installation
 `Dask` is included by default in the Anaconda distribution. Otherwise, you can also use pip to install everything required for the most common uses of `Dask` or choose to only install the `Dask` library:
-```
+
+{{% codeblock %}}
+```shell
 python -m pip install "dask[complete]"    # Install everything
 python -m pip install dask                # Install only core parts of Dask
-
 ```
+{{% /codeblock %}}
 
 Alternatively, see other installing options [here](https://docs.dask.org/en/stable/install.html).
 
